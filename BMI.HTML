@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<title>โปรแกรมคำนวณดัชนีมวลกาย-Tong.com</title>
+</head>
+<body>
+<style>
+    body,h1 {
+        font-family: "Raleway", sans-serif; text-align: center;
+}
+body, html {
+    background-image: url("Pbg.jpg");
+    min-height: 150%;
+  background-position: center;
+  background-size: cover;
+    height: 100%
+}
+</style>
+<body>
+
+    <biv class="w3-display-container w3-animate-opacity">
+    <div class=" w3-padding-large w3-xlarge">
+    <br><br><br><br><br><br><br><br>
+    <h1>โปรแกรมคำนวณดัชนีมวลกาย</h1>
+    <br>
+    <h2>น้ำหนัก (kg.)</h2>
+    <input id="input1" type="number"/>
+    <br>
+    <h2>ส่วนสูง (cm.)</h2>
+    <input id="input2" type="number" />
+    <br>
+    <button onclick="GetWeight(document.getElementById('input1').value);GetTall(document.getElementById('input2').value)">คำนวณ</button>
+    <h2>BMI</h2>
+    <h3 id="result">0</h3>
+    <br>
+    <h2 id="result2">รูปร่าง =_________ </h2>
+    <br>
+    <h4>BMI kg/m2	อยู่ในเกณท์	ภาวะเสี่ยงต่อโรค</h4>
+    <h4>น้อยกว่า 18.50	น้ำหนักน้อย / ผอม	มากกว่าคนปกติ</h4>
+<h4>ระหว่าง 18.50 - 22.90  / ปกติ (สุขภาพดี)	เท่าคนปกติ</h4>
+<h4>ระหว่าง 23 - 24.90	ท้วม / โรคอ้วนระดับ 1	อันตรายระดับ 1</h4>
+<h4>ระหว่าง 25 - 29.90	อ้วน / โรคอ้วนระดับ 2	อันตรายระดับ 2</h4>
+<h4>มากกว่า 30	อ้วนมาก / โรคอ้วนระดับ 3	อันตรายระดับ 3</h4>
+</biv>
+</div>    
+<script src = "app.js"></script>
+</body>
+</body>
+</html>
