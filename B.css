@@ -1,0 +1,42 @@
+
+body,h1 {
+    font-family: 'Kanit', sans-serif; text-align: center;font-size: 40px;
+}
+body, html {
+    background-image: url("Pbg.jpg");
+    min-height: 150%;
+    background-position: center;
+    background-size: 250px 250px;
+    height: 100%
+}
+.button {
+    background-color: #eb7171; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/*    body,h1 {
+    font-family: 'Kanit', sans-serif; text-align: center;
+}
+body, html {
+    background-image: url("Pbg.jpg");
+    min-height: 150%;
+    background-position: center;
+    background-size: cover;
+    height: 100%
+}
+.button {
+    background-color: #eb7171; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+</style>

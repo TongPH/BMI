@@ -2,29 +2,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
 <title>โปรแกรมคำนวณดัชนีมวลกาย-Tong.com</title>
 </head>
 <body>
-<style>
-    body,h1 {
-        font-family: "Raleway", sans-serif; text-align: center;
-}
-body, html {
-    background-image: url("Pbg.jpg");
-    min-height: 150%;
-  background-position: center;
-  background-size: cover;
-    height: 100%
-}
-</style>
+<link href="B.css">
 <body>
 
     <biv class="w3-display-container w3-animate-opacity">
     <div class=" w3-padding-large w3-xlarge">
-    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
     <h1>โปรแกรมคำนวณดัชนีมวลกาย</h1>
     <br>
     <h2>น้ำหนัก (kg.)</h2>
@@ -33,7 +22,7 @@ body, html {
     <h2>ส่วนสูง (cm.)</h2>
     <input id="input2" type="number" />
     <br>
-    <button onclick="GetWeight(document.getElementById('input1').value);GetTall(document.getElementById('input2').value)">คำนวณ</button>
+    <button class=".button" onclick="GetWeight(document.getElementById('input1').value);GetTall(document.getElementById('input2').value)">คำนวณ</button>
     <h2>BMI</h2>
     <h3 id="result">0</h3>
     <br>
