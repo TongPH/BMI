@@ -28,8 +28,11 @@ body, html {
     border-radius: 4ch;
     background-color: rgb(221, 243, 248);
     border-radius: 15px;
-    border-width: 8px;
+    justify-content: center;
+    width: 560px;
     padding: 10px;    
     border-style: double;
+    margin:2rem auto;
+    
     
 }
