@@ -1,25 +1,4 @@
-
 body,h1 {
-    font-family: 'Kanit', sans-serif; text-align: center;font-size: 40px;
-}
-body, html {
-    background-image: url("Pbg.jpg");
-    min-height: 150%;
-    background-position: center;
-    background-size: 250px 250px;
-    height: 100%
-}
-.button {
-    background-color: #eb7171; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-/*    body,h1 {
     font-family: 'Kanit', sans-serif; text-align: center;
 }
 body, html {
@@ -27,16 +6,25 @@ body, html {
     min-height: 150%;
     background-position: center;
     background-size: cover;
-    height: 100%
+    height: 100%;
 }
-.button {
+#button {
     background-color: #eb7171; 
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 57px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-style: solid;
 }
-</style>
+.box {
+    padding: 10px 57px;
+    border-radius: 4ch;
+}
+.Head{
+    border: 10px solid rgb(123, 255, 255);
+    border-radius: 4ch;
+    background-color: white;
+}
