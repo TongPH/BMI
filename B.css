@@ -24,7 +24,12 @@ body, html {
     border-radius: 4ch;
 }
 .Head{
-    border: 10px solid rgb(123, 255, 255);
+    border: 10px solid rgb(92, 192, 192);
     border-radius: 4ch;
-    background-color: white;
+    background-color: rgb(221, 243, 248);
+    border-radius: 15px;
+    border-width: 8px;
+    padding: 10px;    
+    border-style: double;
+    
 }
